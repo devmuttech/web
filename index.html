@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Muttech</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/carousel/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles -->
+    <link href="./styles/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <p class="h1 text-light">Muttech</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              >
+                <rect width="100%" height="100%" fill="#000" />
+              </svg>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Conviertete en una agencia 2.0</h1>
+                <p>
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Lorem, ipsum.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#000" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Lorem, ipsum.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#000" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Lorem, ipsum.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing
+  ================================================== -->
+      <!-- Wrap the page to center it. -->
+
+      <div class="container marketing">
+        <!-- START THE DESCRIPTION -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Optimiza
+              <span class="text-muted">tu recuperación.</span>
+            </h2>
+            <p class="lead">
+              ¡Evoluciona! Transforma tus procesos manuales en automáticos para optmizar tu gestión e incrementar tu cobranza a un precio justo.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/optimizar.png" class="img-thumbnail" style="border: none;" alt="">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img src="img/tecnologia.png" class="img-thumbnail" style="border: none;" alt="">
+          </div>
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Tecnología e innovación 
+              <span class="text-muted">a tu alcance.</span>
+            </h2>
+            <p class="lead">
+              Aumenta tu productividad y mejora tus resultados a un costo accesible. Contamos con mensajes de voz bláster personalizados, sistema de gestión y medición de resultados de multiples carteras, marcador predictivo y manual, telefonía VoIP y más.
+            </p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              El futuro <span class="text-muted">está aquí.</span>
+            </h2>
+            <p class="lead">
+              Aumenta tus posibilidades de contacto de una manera sencilla y efectiva con correos electrónicos y envío de SMS automatizados.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/globos-de-texto.png" class="img-thumbnail" style="border: none" alt="">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE DESCRIPTION -->
+
+        <!-- START THE SERVICES -->
+        <div class="row">
+          <h2 class="h1 text-center mb-5">Nuestros servicios</h2>
+          <div class="col-lg-4">
+            <img src="img/SEC.jpg" class="img-thumbnail" style="border-radius: 50%;" alt="">
+            
+            <h2>Sistema Especializado en Cobranza (SEC)</h2>
+            <p>
+              Desarollamos un software hecho a tu medida, con el fin de organizar la gestion de tu/tus portafolio(s).
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="img/predictivo.jpg" class="img-thumbnail" style="border-radius: 50%;" alt="">
+
+            <h2>Marcador Predictivo/Progresivo</h2>
+            <p>
+              Incrementa tu productividad con estrategias dirigidas ya sea con un barrido de portafolio o dando seguimiento a negociaciones.
+              Con el marcador progresivo ahorra costo y define el tiempo que tus agentes tomaran la siguiente llamada y evita tiempos muertos.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="img/sms.jpg" class="img-thumbnail" style="border-radius: 50%;" alt="">
+
+            <h2>Envío masivo SMS Interactivos</h2>
+            <p>
+              El mensaje es recibido de forma instantánea, sin importar la ubicación de la persona.
+Los costos se minimizan Mensajes personalizados, pudiendo hacer el envío personalizado.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/blaster.png" class="img-thumbnail" style="border-radius: 50%;" alt="">
+
+            <h2>Bláster Personalizado</h2>
+            <p>
+              Deja mensajes virtuales personalizados y genera contacto dirigiento las llamadas contestadas a un ejecutivo y obten un reporte para ver los numeros telefonicos efectivos.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="img/correos.png" class="img-thumbnail" style="border-radius: 50%;" alt="">
+
+            <h2>Envío masivo de correos</h2>
+            <p>
+              Actualmente los portafolios asignados cuentan con un campo de correo por lo que puedes enviar y medir la efectividad de dicha acción y así obtener un rebote y llegar a una negociación con el titular del adeudo.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title></title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+            <h2>APP Móvil para gestión en Campo</h2>
+            <p>
+              SEC Móvil APP Android
+Desde la comodidad de tu oficina puedes asignar filas de trabajo al usuario con del dispositivo móvil mismo que en tiempo real se le actualizara permitiendo dar seguimiento a las cuentas que le fueron asignadas.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+      </div>
+        <!-- /END THE SERVICES -->
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Ir arriba</a></p>
+        <p>
+          &copy; year-year Muttech. &middot;
+          <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a>
+        </p>
+      </footer>
+    </main>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
