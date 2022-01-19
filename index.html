@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Muttech</title>
 
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.1/examples/carousel/"
-    />
-
     <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
     <style>
       .bd-placeholder-img {
@@ -31,12 +27,30 @@
 
     <!-- Custom styles -->
     <link href="./styles/styles.css" rel="stylesheet" />
+    
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #fff;">
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top rounded" aria-label="Third navbar example" style="background-color: rgb(255, 255, 255);">
         <div class="container-fluid">
-          <img src="https://i.ibb.co/zVm8QRW/logowithoutdesc.png" style="width: 100px;" alt="tecco">
+          <img class="navbar-brand mr-5" src="https://i.ibb.co/zVm8QRW/logowithoutdesc.png" style="width: 100px; margin-bottom: 20px;" alt="tecco">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbars">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active h5" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h5" href="#">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h5" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
